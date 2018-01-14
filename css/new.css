@@ -1,0 +1,354 @@
+.w3_agile_logo {
+	position: relative;
+	z-index: 999;
+}
+
+.agileits_main {
+	background-image: url('../images/banner.jpg');
+	background-position: 85% center;
+}
+.agileits_main:before {
+	content: '';
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.audioPlayer {
+	display: none;
+}
+
+.bg_heart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100vh;*/
+    overflow: hidden
+ }
+
+.heart {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+ }
+
+.heart:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:after {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+  0%{top:110%}
+}
+@-moz-keyframes love {
+  0%{top:110%}
+}
+@-ms-keyframes love {
+  0%{top:110%}
+}
+@keyframes love {
+  0%{top:110%}
+}
+
+.navbar {
+	z-index: 999;
+}
+.intro {
+	padding: 80px 0;
+	background: url('../images/background.jpg') no-repeat center;
+}
+.intro h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+span.swirl-left {
+    display: inline-block;
+    background: url('../images/swirl-left.png') no-repeat left;
+    padding: 0 0 0 130px;
+}
+span.swirl-right {
+    display: inline-block;
+    background: url('../images/swirl-right.png') no-repeat right;
+    padding: 10px 130px 10px 0px;
+}
+span.swirl-right span {
+    color: #e2b123;
+    padding: 0 3px;
+}
+
+.cowndown {
+	background: url('../images/cowndownBg.jpg') no-repeat center;
+	padding: 80px 0;
+}
+.cowndown h2 {
+	color: #fff;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.cowndown h1 {
+	font-size: 70px;
+	color: #ffbf4d;
+	margin-bottom: 15px;
+}
+.cowndown h4 {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.countDays, .countHours, .countMinutes, .countSeconds {
+	position: relative;
+}
+.countDays:after, .countHours:after, .countMinutes:after, .countSeconds:after {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	bottom:-12px;
+	left: 0;
+	right: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.countDays:after{
+	content: 'Days';
+}
+.countHours:after{
+	content: 'Hours';
+}
+.countMinutes:after{
+	content: 'Minutes';
+}
+.countSeconds:after {
+	content: 'Seconds';
+}
+.title-date {
+	font-family: 'Poppins', sans-serif;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+}
+.customised h3 {
+	font-weight: 600;
+	padding: 20px 0 25px;
+}
+h2.modal-title {
+	color: #
+}
+
+#blog h3.title {
+	padding-bottom: 5px;
+}
+
+#gallery .w3agile-text {
+	background-color: rgba(232, 57, 92, 0.5)
+}
+.googleMap h2 {
+	padding: 25px 0;
+}
+
+
+@-webkit-keyframes pulsate {
+  0% {
+    background-color: #f44336;
+  }
+  25% {
+    background-color: #E91E63;
+  }
+  50% {
+    background-color: #2196F3;
+  }
+  75% {
+    background-color: #FFC107;
+  }
+  100% {
+    background-color: #FF5722;
+  }
+}
+@-moz-keyframes pulsate {
+  0% {
+    background-color: #f44336;
+  }
+  25% {
+    background-color: #E91E63;
+  }
+  50% {
+    background-color: #2196F3;
+  }
+  75% {
+    background-color: #FFC107;
+  }
+  100% {
+    background-color: #FF5722;
+  }
+}
+@-o-keyframes pulsate {
+  0% {
+    background-color: #f44336;
+  }
+  25% {
+    background-color: #E91E63;
+  }
+  50% {
+    background-color: #2196F3;
+  }
+  75% {
+    background-color: #FFC107;
+  }
+  100% {
+    background-color: #FF5722;
+  }
+}
+@keyframes pulsate {
+  0% {
+    background-color: #f44336;
+  }
+  25% {
+    background-color: #E91E63;
+  }
+  50% {
+    background-color: #2196F3;
+  }
+  75% {
+    background-color: #FFC107;
+  }
+  100% {
+    background-color: #FF5722;
+  }
+}
+@-webkit-keyframes move {
+  to {
+    stroke-dashoffset: -1200;
+  }
+}
+@-moz-keyframes move {
+  to {
+    stroke-dashoffset: -1200;
+  }
+}
+@-o-keyframes move {
+  to {
+    stroke-dashoffset: -1200;
+  }
+}
+@keyframes move {
+  to {
+    stroke-dashoffset: -1200;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.loader {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+  -webkit-animation-duration: 80s;
+  -moz-animation-duration: 80s;
+  -o-animation-duration: 80s;
+  animation-duration: 80s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: pulsate;
+  -moz-animation-name: pulsate;
+  -o-animation-name: pulsate;
+  animation-name: pulsate;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  -o-animation-direction: normal;
+  animation-direction: normal;
+}
+.loader svg {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.animation {
+  fill: none;
+  stroke: #ffffff;
+  stroke-linecap: square;
+  stroke-miterlimit: 10;
+  stroke-width: 0.5px;
+  opacity: 1;
+  stroke-dasharray: 600;
+  -webkit-animation: move 5s linear forwards infinite, fade 5s linear infinite;
+  animation: move 5s linear forwards infinite, fade 5s linear infinite;
+}
+figcaption {
+	padding-top: 25% !important;
+}
+figcaption h3 {
+	margin-bottom: 25px;
+}
+figcaption h2 {
+	margin-bottom: 30px !important;
+}

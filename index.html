@@ -1,33 +1,420 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Wedding</title>
+<title>Wedding Bijoy & Dolon</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Bijoy Sen, Dolon Addhya, Wedding, Wedding Event, Barasat, Kishor Sporting Club" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- stylesheet -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts -->
+<link href="http://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
 
-	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<!-- line animation -->
+<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="various/demo.css" />
+<link rel="stylesheet" type="text/css" href="various/component.css" /> -->
+<link rel="stylesheet" href="css/jquery.countdown.css">
+<link rel="stylesheet" href="css/imagehover.min.css">
+
+<link rel="stylesheet" href="css/new.css">
+
 </head>
 <body>
 
-	<div class="boxCover">
-		<div class="img">
-			<img src="assets/images/290.png" width="600" alt="">
+
+<div class="loader">
+	<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-466.4 259.6 280.2 47.3" enable-background="new -466.4 259.6 280.2 47.3" xml:space="preserve">
+	<polyline class="animation"   points="-465.4,281 -436,281 -418.9,281 -423.9,281 -363.2,281 -355.2,269 -345.2,303 -335.2,263 -325.2,291 -319.2,281 -187.2,281 "></polyline>
+	</svg>
+</div>
+
+
+<div class="audioPlayer">
+	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+	<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+		<div class="jp-type-single">
+			<div class="jp-gui jp-interface">
+				<div class="jp-controls-holder">
+					<div class="jp-controls">
+						<button class="jp-play" role="button" tabindex="0">play</button>
+					</div>
+				</div>
+			</div>
+			<div class="jp-no-solution">
+				<span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+			</div>
 		</div>
 	</div>
+</div>
 
-	<style>
-		.boxCover{
-			height: 100vh;
-			width: 100%;
-			display: flex;
-			text-align: center;
-			justify-content: center;
-		}
-		.img {
-			align-self: center;
-		}
-	</style>
+<div class="agileits_main bg_heart">
 
-	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>		
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<!-- header -->
+	<div class="w3_agile_logo">
+		<h1 class="text-center"><a href="index.html"><img src="images/logo.png" width="160"></a></h1>
+	</div>
+
+	<!-- banner -->
+	<div class="w3_banner">
+		<div class="container">
+			<div class="slider">
+				<div class="callbacks_container">
+				   <ul class="rslides callbacks callbacks1" id="slider4">
+						<li>	
+							<div class="banner_text_w3layouts">
+								<h3>Together Forever</h3>
+								<span> </span>
+								<p>With my Love</p>
+							</div>
+						</li>
+						 <li>	
+							<div class="banner_text_w3layouts">
+								<h3>I still fall in love</h3>
+								<span> </span>
+								<p>With you everyday</p>
+							</div>
+						</li>
+						 <li>	
+							<div class="banner_text_w3layouts">
+								<h3>You are my sunshine</h3>
+								<span> </span>
+								<p>On a rainy day</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			  <script src="js/responsiveslides.min.js"></script>
+			  <script>
+				// You can also use "$(window).load(function() {"
+				$(function () {
+				  // Slideshow 4
+				  $("#slider4").responsiveSlides({
+					auto: true,
+					pager:true,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					  $('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+					  $('.events').append("<li>after event fired.</li>");
+					}
+				  });
+			
+				});
+			 </script>
+		   </div>
+		</div>   
+	</div>
+
+	<!-- menu -->
+	<nav class="navbar navbar-inverse ">
+		<div class="container">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</button>
+		<div class="collapse navbar-collapse top-nav w3l" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu">
+				<li class="agile_active"><a href="index.html" class="scroll"><span>home</span></a></li>
+				<li><a href="#introduction" class="scroll"><span>introduction</span></a></li>
+				<li><a href="#memory" class="scroll"><span>Memory </span></a></li>
+				<li><a href="#gallery" class="scroll"><span>Gallery</span></a></li>
+				<li><a href="#contact" class="scroll"><span>Location</span></a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+
+ </div>	
+
+<div class="intro" id="introduction">
+	<div class="container">
+		<div class="text-center">
+			<h2>Introduction</h2>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<figure class="imghvr-slide-left">
+				<img src="images/bijoy_l.jpg">
+				<figcaption>
+					<h3>Groom</h3>
+					<h2>BIJOY SEN</h2>
+
+					<h4>"You are my true love at first sight and forever."</h4>
+				</figcaption>
+			</figure>
+			<figure class="imghvr-slide-right">
+				<img src="images/dolon_l.jpg">
+				<figcaption>
+					<h3>Bride</h3>
+					<h2>Dolon Addhya</h2>
+					<h4>"I have only one weakness and one strength: it`s my love for you."</h4>
+				</figcaption>
+			</figure>
+		</div>
+	</div>	
+</div>
+
+<div class="cowndown">
+	<div class="container">
+		<div class="text-center">
+			<h2>WE ARE GETTING MARRIED</h2>
+			<h1>Bijoy & Dolon</h1>
+
+			<h4>Countdown To Wedding Day</h4>
+			<div id="countdown"></div>
+			<div class="title-date">
+				<span class="swirl-left"><span class="swirl-right">1<span>.</span>02<span>.</span>2018</span></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- home -->
+<div class="home_ w3layouts" id="memory">
+ <div class="home_grids_w3">
+  <div class="home_main">
+	   <div class="col-md-7 col-sm-7 col-xs-7 img1 img-grid">
+		   <div class="img_text_w3ls text-center">
+				<h4>Your voice is my favourite sound</h4>
+				<span> </span>
+				<p>13th August 2017</p>
+			</div>
+		</div>
+		<div class="col-md-5 img2 col-sm-5 col-xs-5 img-grid">
+		    <div class="img_text_w3ls text-center">
+				<h4>With you its different</h4>
+				<span> </span>
+				<p>20th August 2017</p>
+			  </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+  <div class="home_main">
+	   <div class="col-md-5 col-sm-5 col-xs-5 img3 img-grid ">
+		    <div class="img_text_w3ls text-center">
+				<h4>I am so lucky to have you</h4>
+				<span> </span>
+				<p>17th September 2017 </p>
+			  </div>
+		</div>
+	  <div class="col-md-7 col-sm-7 col-xs-7 img4 img-grid">
+		    <div class="img_text_w3ls text-center">
+				<h4>Together we are everything.</h4>
+				<span> </span>
+				<p>28th September 2017 </p>
+			</div>
+	 </div>
+	<div class="clearfix"></div>
+  </div>
+   <div class="home_main">
+	   <div class="col-md-7 col-sm-7 col-xs-7 img-grid  img5">
+		  <div class="img_text_w3ls text-center">
+				<h4>We made for each other</h4>
+				<span> </span>
+				<p>29th September 2017</p>
+		  </div>
+		 </div>
+		<div class="col-md-5 col-sm-5 col-xs-5 img-grid img6">
+		  <div class="img_text_w3ls text-center">
+				<h4>Miss you every second</h4>
+				<span> </span>
+				<p>25th December 2017</p>
+		  </div>
+		 </div>
+		<div class="clearfix"></div>
+  </div>
+</div>
+</div>
+<!-- //home -->
+
+<!-- gallery -->
+<div class="gallery_wthree" id="gallery">
+ <div class="container">
+      <h3 class="title">gallery</h3>
+	  <div class="gallery_grid agileits_w3layouts">
+	    <div class="col-md-6  col-sm-6 col-xs-6 grid_w3">
+			<div class="grid-1">
+				<a class="cm-overlay" href="images/groomFamily.jpg">
+					<img src="images/groomFamily.jpg" alt=" " class="img-responsive" />
+					 <div class="w3agile-text w3agile-text-smal1">
+						<h5>Bijoy's Family</h5>
+					</div>
+				</a>
+			</div>
+			 <div class="sub_grid gallery_w3l">
+				   <div class="col-md-6 col-sm-6 col-xs-6 grid-1 grid-c grid_w3l">
+						<a class="cm-overlay" href="images/bijoyBrother.jpg">
+							<img src="images/bijoyBrother.jpg" alt=" " class="img-responsive" />
+							<div class="w3agile-text w3agile-text-small">
+								<h5>Bijoy's Brother</h5>
+					        </div>
+						</a>
+					</div>
+				   <div class="col-md-6 col-sm-6 col-xs-6 grid-1 grid-b grid_w3l">
+					 	<a class="cm-overlay" href="images/dolonSister.jpg">
+							<img src="images/dolonSister.jpg" alt=" " class="img-responsive" />
+							<div class="w3agile-text w3agile-text-smal1">
+								<h5>Dolon Sister</h5>
+							</div>
+						</a>
+					</div>
+				   <div class="clearfix"></div>
+			 </div>  
+        </div>
+		<div class="col-md-6 col-sm-6 col-xs-6 grid_w3">
+		   <div class="sub_grid">
+			   <div class="col-md-6 col-sm-6 col-xs-6 grid-1 grid-c grid_w3l">
+          			<a class="cm-overlay" href="images/dolonUncle.jpg">
+						<img src="images/dolonUncle.jpg" alt=" " class="img-responsive" />
+						<div class="w3agile-text w3agile-text-small">
+							<h5>Dolon's Uncle</h5>
+						</div>
+					</a>
+			   </div>
+			   <div class="col-md-6 col-sm-6 col-xs-6 grid-1 grid-d grid_w3l">
+					<a class="cm-overlay" href="images/dolonAunt.jpg">
+						<img src="images/dolonAunt.jpg" alt=" " class="img-responsive" />
+						<div class="w3agile-text w3agile-text-smal1">
+							<h5>Dolon Aunt</h5>
+						</div>
+					</a>
+				</div>
+				 <div class="clearfix"></div>
+			   </div>
+		    <div class="grid-1 grid-2">
+				<a class="cm-overlay" href="images/brideFamily.jpg">
+					<img src="images/brideFamily.jpg" alt=" " class="img-responsive" />
+					<div class="w3agile-text w3agile-text-smal1">
+						<h5>Dolon's Family</h5>
+					</div>
+				</a>
+		    </div>
+		   <div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	  </div>	
+</div>
+</div>
+<!-- //gallery -->
+<!-- Tooltip -->
+<div class="tooltip-content">
+	<div class="modal fade features-modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-md">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title text-center">Let the Journey Begins</h2>
+				</div>
+				<div class="modal-body text-center customised">
+					<img src="images/moment.jpg" alt="">
+					<h3>I look at you and see the rest of my life in front of my eyes.</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //Tooltip -->
+<!-- section -->
+<div class="w3layouts-section" id="blog">
+	<div class="container">   
+		<h3 class="title">Love is.....</h3>
+		<p>Writing a new chapter together</p>
+		<a href="#myModal" class="agilebtn" data-toggle="modal" data-target="#myModal"><span>Read More</span></a>
+	</div>
+</div>
+<!-- //section --> 
+
+<div class="googleMap" id="contact">
+	<div class="container text-center">
+		<h2>Reception Location</h2>
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.8999803213683!2d88.47945061504804!3d22.731958685101088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8a274d5a05541%3A0x66537fad50e51dae!2sKishor+Sporting+Club!5e0!3m2!1sen!2sin!4v1515962908145" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+<!-- copy-right -->
+<div class="copy-right agileits-w3layouts">
+	<div class="container">
+		<div class="social-icons agileits">
+     		<ul>
+				<li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+				<li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+				<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+				<li><a href="#" class="fa fa-dribbble icon icon-border dribbble"> </a></li>
+			</ul>
+			<div class="clearfix"> </div>
+		</div> 
+
+		<p><a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=https://dolonbijoy.github.io/&digit=style/plain/12/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://projectorlive.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">projector comparison</a></p>
+		
+		<p>© 2018 Bijoy Sen. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>	
+	</div>
+</div>
+<!-- //copy-right -->
+<!-- Gallery-plugin -->
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+<!-- //Gallery-plugin -->
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<script src="js/SmoothScroll.min.js"></script>
+<!-- //end-smooth-scrolling -->	
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 </body>
 </html>
