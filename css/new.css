@@ -21,10 +21,27 @@
 	bottom: 0;
 }
 
-.audioPlayer {
-	/*display: none;*/
+.audioPlayer .jp-play {
+	background: url('../images/play.png') no-repeat center bottom;
+    width: 40px;
+    height: 51px;
+    background-size: 40px 40px;
+    border: none;
+    font-size: 0;
+    display: inline-block;
+    padding-top: 53px;
+    position: fixed;
+    z-index: 99999;
+    bottom: 10px;
+    left: 10px;
 }
 
+.audioPlayer .jp-state-playing .jp-play {
+	background-image: url('../images/pause.png');
+}
+.jp-play:focus {
+	outline: none;
+}
 .bg_heart {
     position: relative;
     top: 0;
